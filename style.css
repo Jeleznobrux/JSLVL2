@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(243, 237, 237);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-cart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 30px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.btn-cart:hover {
+    color: white;
+    background-color: red;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.buy-btn {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.buy-btn:hover {
+    color: white;
+    background-color: black;
+}
